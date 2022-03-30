@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* This is header content */
+header {
+    font-family: Consolas, 'Andale Mono WT', 'Andale Mono', 'Lucida Console';
+    color: gray;
+    padding: 18px;
+    background-color: gray;
+    font-size: 15px;
+}
+header h1 {
+    position: relative;
+    left: 55px;
+}
+span {
+    background-color: lightblue;
+}
+header ul {
+    list-style-type: none;
+}
+header ul li {
+    display: inline-block;
+    text-decoration: underline;
+    margin-right: 20px;
+    text-underline-position: under;
+}
+header nav {
+    position: absolute;
+    top: 25px;
+    right: 50px;
+    font-size: 20px;
+    font-family: 'Lucida' Console;
+    color: lightblue;
+}
+/* This is main content */
+.hero-image {
+    height: 50%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("assets\Images\flower-banner.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.hero-text h2 {
+    float: right;
+    display: block;
+    padding-top: 80px;
+    padding-right: 75px;
+    font-size: 34px;
+    color: gray;
+}
+.float-right {
+    font-size: 20px;
+    width: 750px;
+    float: right;
+    display: block;
+}
