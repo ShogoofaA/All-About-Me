@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <title>All About Me</title>
 </head>
 <body>
@@ -26,25 +27,36 @@
         </main>
     </div>
     <!-- This is the middle content -->
-    <main class="grid-container">
-        <section class="item-1"><img src="assets\Images\my-photo.JPG"width="215" height="250"></section>
-        <section id="item-2">About Me</section>
-        <section class="item-3">Hello, my name is Shogoofa, an eager soul aspiring to enter the web development field! I have always dealt with computers from a young age and have consistently held a fascination with them. When I first entered the workforce at a local retail company, due to my persistent effort and dedication I was promoted within one year to a supervisor role. I continued this position for the next four years until realising that this was not my end goal. Having discovered Web Development through my sister, I came across a newfound exhilaration in learning it!  </section>
-        <section id="item-4">Work</section>
-        <section class="item-5"><img src="assets\Images\FFXIV.jpg"width="600" height="300"><div class="caption">FFXIV</div></section>
-        <section class="item-6"><img src="assets\Images\Flower.jpg"width="285" height="230"></section>
-        <section class="item-7"><img src="assets\Images\Moon.jpg"width="285" height="230"></section>
-        <section class="item-8"><img src="assets\Images\PM.jpg"width="285" height="230"></section>
-        <section class="item-9"><img src="assets\Images\Poke.jpg"width="285" height="230"></section>
+    <main class="about-me-container">
+        <section class="self-portrait"><img src="assets\Images\my-photo.JPG"width="215" height="250"></section>
+        <section id="content-title">About Me</section>
+        <section class="flex-summ col-9">Hello, my name is Shogoofa, an eager soul aspiring to enter the web development field! I have always dealt with computers from a young age and have consistently held a fascination with them. When I first entered the workforce at a local retail company, due to my persistent effort and dedication I was promoted within one year to a supervisor role. I continued this position for the next four years until realising that this was not my end goal. Having discovered Web Development through my sister, I came across a newfound exhilaration in learning it!  </section>
+    </main>
+    <main class="flex-container">
+        <section id="work-title" class="col-2">Work</section>
+        <section class="col-9">
+            <section class="flex-item-1 ">
+                <img src="assets\Images\FFXIV.jpg"width="600" height="300">
+                <div class="caption">FFXIV</div>
+            </section>
+            <section class="flex-item-2">
+                    <img src="assets\Images\Flower.jpg"width="285" height="230">
+                <img src="assets\Images\Moon.jpg"width="285" height="230">
+            </section>
+            <section class="flex-item-3">
+                <img src="assets\Images\PM.jpg"width="285" height="230">
+                <img src="assets\Images\Poke.jpg"width="285" height="230">
+            </section>
+        </section>
     </main>
     <!-- This is my footer section -->
-    <footer>
-        <h1 id="Contact">Contact Me</h1>
+    <footer class="col-12">
+        <h1 id="Contact" class="col-2">Contact Me</h1>
         <nav>
             <ul>
                 <li>760-884-7840</li>
                 <li>shogoofa.musket@gmail.com</li>
-                <li><a href="https://github.com/ShogoofaA">Github</a></li>
+                <li><a href="https://github.com/ShogoofaA%22%3EGithub">GitHub</a></li>
             </ul>
         </nav>
     </footer>
