@@ -4,6 +4,9 @@
     margin: 0;
 }
 /* This is header content */
+.color {
+    color: lightblue;
+}
 header {
     font-family: Consolas, 'Andale Mono WT', 'Andale Mono', 'Lucida Console';
     color: #88518a;
