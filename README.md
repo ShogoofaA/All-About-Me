@@ -4,4 +4,4 @@ I developed a portfolio to showcase the different projects I have worked on for 
 
 https://shogoofaa.github.io/All-About-Me/
 
-![splash-page](./assets/Images/shogoofaa.github.io_All-About-Me_%20(1).png)
+![splash-page](./assets/Images/AAM.png)
